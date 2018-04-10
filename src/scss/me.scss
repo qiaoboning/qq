@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+html{
+	font-size:13.89vw;
+	// font-size:26.67vw;
+	// font-size:41.67vw;
+}
+body{
+	font-family:"微软雅黑",Arail;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	justify-content: space-between;
+}
+img{
+	display:block;
+	border:none;	
+}
+a{
+	text-decoration:none;	
+}
+ul,ol{
+	list-style:none;
+}
+header{
+	width:100%;
+	.login{
+		padding:0 0.3rem;
+		display:flex;
+		height:1.77rem;
+		justify-content:space-between;
+		align-items:center;
+		border-bottom:1px solid #f0f0f0;
+		.login_left{
+			font-size:0.24rem;
+			color:#8e908f;
+			a{
+				font-size:0.3rem;
+				color:#222222;
+				display:block;
+				margin-bottom:0.25rem;
+			}
+		}
+		.login_right{
+			display:flex;
+			align-items:center;
+			a:first-child{
+				display:block;
+				width:0.8rem;
+				height:0.8rem;
+				img{
+					width:100%;
+				}
+			}
+			a:nth-child(2){
+				img{
+					width:0.33rem;
+					height:0.23rem;
+
+				}
+			}
+		}
+	}
+	.myMsg{
+		height:1.6rem;
+		display:flex;
+		align-items:center;
+		font-size:0.25rem;
+		a{
+			flex:1;	
+			img{
+				width:0.45rem;
+				height:0.4rem;
+				margin:0 auto;
+			}
+			span{
+				display:block;
+				text-align:center;
+				color:#222;
+			}
+		}
+	}
+}
+
+section{
+	width:100%;
+	-webkit-flex:1;
+	overflow-y:auto;
+	overflow-x:hidden;
+	.section_one{
+		height:0.2rem;
+		background:#f8f8f8;
+	}
+	.section_two{
+		padding:0 0.2rem; 
+		a{
+			display:flex;
+			align-items:center;
+			height:1rem;
+			border-bottom:1px solid #f0f0f0;
+			justify-content:space-between;
+			.left{
+				display:flex;
+				font-size:0.25rem;
+				color:#222;
+				img{
+					width:0.38rem;
+					height:0.37rem;
+					margin-right:0.15rem;
+				}
+			}
+			img{
+				width:0.33rem;
+				height:0.23rem;
+			}
+		}
+	}
+}
+footer{
+	width:100%;
+	display:flex;
+	padding:0.2rem 0.08rem;
+	border-top:1px solid #f0f0f0;
+	a{
+		flex:1;
+		font-size:0.2rem;
+		color:#999;
+		img{
+			margin:0 auto;
+		}
+		span{
+			text-align:center;
+			margin-top:0.1rem;
+			display:block;
+		}
+	}
+}

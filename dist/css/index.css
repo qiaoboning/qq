@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+html {
+  font-size: 13.89vw; }
+
+body {
+  font-family: "微软雅黑",Arail; }
+
+img {
+  display: block;
+  border: none; }
+
+a {
+  text-decoration: none; }
+
+ul, ol {
+  list-style: none; }
+
+header {
+  width: 100%;
+  height: 3.05rem;
+  background: url(../imgs/pic_08.jpg);
+  background-Size: 100%; }
+  header .head {
+    display: flex;
+    justify-content: space-between;
+    height: 0.9rem;
+    align-items: center;
+    padding: 0 0.3rem; }
+    header .head a {
+      font-size: 0.24rem;
+      color: #fffcf1; }
+    header .head input {
+      display: block;
+      border: 1px solid #fff;
+      border-radius: 0.2rem;
+      width: 4.6rem;
+      height: 0.6rem; }
+    header .head .iconfont {
+      font-size: 0.36rem;
+      color: #fffcf1; }
+
+section {
+  width: 100%; }
+  section .section_one {
+    display: flex;
+    height: 1rem;
+    border: 1px solid #f8f8f8;
+    align-items: center; }
+    section .section_one a {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      font-size: 0.27rem;
+      color: #797979; }
+  section .section_two {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #f8f8f8;
+    align-items: center; }
+    section .section_two a {
+      display: block;
+      width: 20%;
+      font-size: 0.27rem;
+      color: #797979;
+      text-align: center; }
+      section .section_two a img {
+        margin: 0.27rem auto; }
+  section .section_three a {
+    padding: 0 0.3rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.27rem;
+    color: #555; }
+  section .section_five {
+    height: 1.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #f8f8f8;
+    align-items: center; }
+    section .section_five a {
+      display: block;
+      width: 25%;
+      font-size: 0.27rem;
+      color: #797979;
+      text-align: center; }
+      section .section_five a img {
+        margin: 0rem auto; }
+  section .section_four {
+    height: 0.2rem;
+    background: #f8f8f8; }
+
+footer {
+  width: 100%;
+  display: flex;
+  padding: 0.2rem 0.08rem;
+  border-top: 1px solid #f0f0f0; }
+  footer a {
+    flex: 1;
+    font-size: 0.2rem;
+    color: #999; }
+    footer a img {
+      margin: 0 auto; }
+    footer a span {
+      text-align: center;
+      margin-top: 0.1rem;
+      display: block; }

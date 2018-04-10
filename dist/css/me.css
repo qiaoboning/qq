@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+html {
+  font-size: 13.89vw; }
+
+body {
+  font-family: "微软雅黑",Arail;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  justify-content: space-between; }
+
+img {
+  display: block;
+  border: none; }
+
+a {
+  text-decoration: none; }
+
+ul, ol {
+  list-style: none; }
+
+header {
+  width: 100%; }
+  header .login {
+    padding: 0 0.3rem;
+    display: flex;
+    height: 1.77rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0; }
+    header .login .login_left {
+      font-size: 0.24rem;
+      color: #8e908f; }
+      header .login .login_left a {
+        font-size: 0.3rem;
+        color: #222222;
+        display: block;
+        margin-bottom: 0.25rem; }
+    header .login .login_right {
+      display: flex;
+      align-items: center; }
+      header .login .login_right a:first-child {
+        display: block;
+        width: 0.8rem;
+        height: 0.8rem; }
+        header .login .login_right a:first-child img {
+          width: 100%; }
+      header .login .login_right a:nth-child(2) img {
+        width: 0.33rem;
+        height: 0.23rem; }
+  header .myMsg {
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.25rem; }
+    header .myMsg a {
+      flex: 1; }
+      header .myMsg a img {
+        width: 0.45rem;
+        height: 0.4rem;
+        margin: 0 auto; }
+      header .myMsg a span {
+        display: block;
+        text-align: center;
+        color: #222; }
+
+section {
+  width: 100%;
+  -webkit-flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden; }
+  section .section_one {
+    height: 0.2rem;
+    background: #f8f8f8; }
+  section .section_two {
+    padding: 0 0.2rem; }
+    section .section_two a {
+      display: flex;
+      align-items: center;
+      height: 1rem;
+      border-bottom: 1px solid #f0f0f0;
+      justify-content: space-between; }
+      section .section_two a .left {
+        display: flex;
+        font-size: 0.25rem;
+        color: #222; }
+        section .section_two a .left img {
+          width: 0.38rem;
+          height: 0.37rem;
+          margin-right: 0.15rem; }
+      section .section_two a img {
+        width: 0.33rem;
+        height: 0.23rem; }
+
+footer {
+  width: 100%;
+  display: flex;
+  padding: 0.2rem 0.08rem;
+  border-top: 1px solid #f0f0f0; }
+  footer a {
+    flex: 1;
+    font-size: 0.2rem;
+    color: #999; }
+    footer a img {
+      margin: 0 auto; }
+    footer a span {
+      text-align: center;
+      margin-top: 0.1rem;
+      display: block; }
